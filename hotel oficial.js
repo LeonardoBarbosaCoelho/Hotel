@@ -3,7 +3,7 @@ var nomeUser = prompt("Insira o nome do Usuário");
 // senha: 2678
 
 function inicio() {
-    var senha = prompt("Insira a senha");
+    var senha = parseInt(prompt("Insira a senha"));
     
     if(senha === '2678'){
         alert('login efetuado com sucesso');
